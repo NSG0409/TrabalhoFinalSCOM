@@ -66,71 +66,81 @@ body {
 }
 
 div.container {
-    padding: 50px 15px;
-
     display: flex;
-    flex-direction: column;
-}
+    justify-content: center;
 
-div.container .payment-opt {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    padding: 0px 20px;
-    height: 90px;
-    width: 80%;
+    margin-top: 50px;
     margin-bottom: 50px;
-
-    background-color: #F7F7F7;
-
-    text-align: left;
 }
 
-div.container .payment-opt .first-card {
-    flex-direction: column;
+div.container .content {
+    display: flex;
+
+    width: 1184px;
+    background-color: white;
+    padding: 20px 60px;
+    border-radius: 5px;
 }
 
-div.container .payment-opt .first-card h4 {
+div.container .content .img {
+    width: 700px;
+    padding-left: 70px;
+}
+
+div.container .content .img img {
+    width: 268px;
+    height: 468px;    
+}
+
+div.container .content .description {
+    border: 1px #E5E5E5 solid;
+    border-radius: 10px;
+    padding: 25px 25px 100px 25px;
+    margin-left: 350px;
+}
+
+div.container .content .description h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000000E6;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+div.container .content .description h2 {
+    font-size: 36px;
+    font-weight: 300;
+    color: #000000E6;
+}
+
+div.container .content .description h3 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+div.container .content .description h4 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #3483FA;
+}
+
+div.container .content .description span {
+    font-size: 14px;
     color: #999999;
 }
 
-div.container .payment-opt .card h4 {
-    display: flex;
-    align-items: center;
+div.container .content .description button {
+    margin-top: 200px;
+    padding: 0px 24px;
+    border-radius: 5px;
 
-    color: #5697FA;
+    width: 318px;
+    height: 48px;
+
+    background-color: #3483FA;
+    border: none;
+    color: white;
 }
-
-div.container .payment-opt .card span {
-    margin-right: 10px;
-}
-
-div.container .products {
-    display: flex;
-    justify-content: space-around;
-}
-
-div.container .product {
-    height: 330px;
-    width: 224px;
-
-    background-color: #F7F7F7;
-}
-
-div.container .product .top img {
-    width: 224px;
-    height: 224px;
-}
-
-div.container .product .bot {
-    padding: 15px;
-}
-
-div.container .product .bot h2 {
-    margin-bottom: 5px;
-}
-
 
 footer .content {
     width: 100%;
