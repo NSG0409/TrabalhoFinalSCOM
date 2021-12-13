@@ -92,6 +92,11 @@ div.container .content .img img {
     height: 468px;    
 }
 
+div.container .content .img PlacaV {
+    width: 320px;
+    height: 560px;    
+}
+
 div.container .content .description {
     border: 1px #E5E5E5 solid;
     border-radius: 10px;
@@ -141,6 +146,14 @@ div.container .content .description button {
     border: none;
     color: white;
 }
+
+div.container .content .description-2 {
+    border: 1px #E5E5E5 solid;
+    border-radius: 10px;
+    padding: 25px 25px 100px 25px;
+    margin-left: 350px;
+}
+
 
 footer .content {
     width: 100%;
