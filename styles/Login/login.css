@@ -1,0 +1,104 @@
+body {
+    background-color: #EBEBEB;
+    font-size: 13px;
+}
+
+.navbar {
+    width: 100%;
+    height: 200px;
+    background-color: #AA67FF;
+
+    padding: 0px 250px 10px 250px;
+}
+
+.navbar .firstRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .firstRow img {
+    width: 80px;
+    height: 80px;
+
+    margin-right: 10px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+
+.container {
+    width: 100%;
+    height: 500px;
+    margin-top: -150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .content {
+    width: 420px;
+    height: 420px;
+
+    background-color: white;
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 
+.container .content form {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+} */
+
+.container .content form legend {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.container .content form div {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.container .content form div label {
+    margin-bottom: 10px;
+}
+
+.container .content form div #login {
+    width: 296px;
+    height: 26px;
+    padding: 13px 12px;
+    margin-bottom: 10px;
+    border: 1px solid #EBEBEB;
+    box-shadow: none;
+}
+
+.container .content form div #password {
+    width: 296px;
+    height: 26px;
+    padding: 13px 12px;
+    
+    border: 1px solid #EBEBEB;
+    box-shadow: none;
+}
+
+.container .content form button {
+    padding: 0px 24px;
+    margin-top: 28px;
+    border-radius: 5px;
+
+    width: 318px;
+    height: 48px;
+
+    background-color: #3483FA;
+    border: none;
+    color: white;
+}
