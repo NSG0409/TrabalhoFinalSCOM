@@ -92,11 +92,20 @@ div.container .content .img img {
     height: 468px;    
 }
 
-div.container .content .img PlacaV {
-    width: 320px;
-    height: 560px;    
+div.container .content .img .placav  {
+    width: 430px;
+    height: 430px;    
 }
 
+div.container .content .img .placav2  {
+    width: 430px;
+    height: 430px;    
+}
+
+div.container .content .img .placav3  {
+    width: 430px;
+    height: 430px;    
+}
 div.container .content .description {
     border: 1px #E5E5E5 solid;
     border-radius: 10px;
@@ -148,6 +157,13 @@ div.container .content .description button {
 }
 
 div.container .content .description-2 {
+    border: 1px #E5E5E5 solid;
+    border-radius: 10px;
+    padding: 25px 25px 100px 25px;
+    margin-left: 350px;
+}
+
+div.container .content .description-3 {
     border: 1px #E5E5E5 solid;
     border-radius: 10px;
     padding: 25px 25px 100px 25px;
